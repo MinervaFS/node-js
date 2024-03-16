@@ -1,0 +1,23 @@
+{
+  "name": "2-npm",
+  "version": "1.0.0",
+  "description": "Belajar node  npm package",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "dev": "ls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saepul Fajari",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "demon": "^0.0.1",
+    "fetch": "^1.1.0",
+    "log-update": "^4.0.0",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
